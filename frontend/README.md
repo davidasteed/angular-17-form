@@ -1,5 +1,30 @@
-# Frontend
+# Frontend software components
+Basic Angular 17, Bootstrap v5, Angular 17 form validation with reactive forms
 
+# To run locally:
+- git checkout the repo
+- npm install
+- ng build
+- ng server
+- open a web browser to the url shown in the console
+
+# TODO
+- implement the "confirm password" validation
+
+- using standalone components in this project for now:  but if we need to repeatedly import CommonModule, then it may make sense to create an Angular module for the application
+
+- potentially dockerize
+To run locally as a docker image:
+- check out the repo from github
+- docker-compose build
+- docker-compose up
+- open a web browser to the url shown in the console
+
+
+
+# Default Angular 17 build readme contents below
+
+# Frontend
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
 ## Development server
